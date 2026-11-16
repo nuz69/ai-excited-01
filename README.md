@@ -8,9 +8,10 @@ A colossal golden koi bursts from a tiny teacup into a spiral galaxy, a tiny ast
 
 ## The program
 
-main.py (Python 3.13, standard library only) deterministically copies excited.jpg to /output/entry.png; no network, no randomness, no clock; running it twice writes byte-identical output.
+`main.py` (Python 3.13, standard library only) deterministically copies `excited.jpg` to `/output/entry.png`; no network, no randomness, no clock; running it twice writes byte-identical output.
 
-```sh
+Run command:
+```bash
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
